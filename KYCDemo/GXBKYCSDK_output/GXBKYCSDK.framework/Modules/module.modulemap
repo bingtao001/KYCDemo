@@ -1,0 +1,6 @@
+framework module GXBKYCSDK {
+  umbrella header "GXBKYCSDK.h"
+
+  export *
+  module * { export * }
+}
