@@ -156,38 +156,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3331513021DCBF78003FFBFC /* GXBKYCSDK_output */ = {
-			isa = PBXGroup;
-			children = (
-				33B8E5C421DE37C700B3936D /* yw_1222_0769.jpg */,
-				33B8E5C021DE34CA00B3936D /* FaceLivenessSDK.bundle */,
-				33B8E5C121DE34CB00B3936D /* GXBKYCSDK.framework */,
-			);
-			path = GXBKYCSDK_output;
-			sourceTree = "<group>";
-		};
 		337F941821E32E2F0060F9F0 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				337F941D21E32E2F0060F9F0 /* GXAFHTTPRequestOperation.h */,
+				337F942721E32E2F0060F9F0 /* GXAFHTTPRequestOperation.m */,
+				337F942121E32E2F0060F9F0 /* GXAFHTTPRequestOperationManager.h */,
+				337F942B21E32E2F0060F9F0 /* GXAFHTTPRequestOperationManager.m */,
+				337F941F21E32E2F0060F9F0 /* GXAFHTTPSessionManager.h */,
+				337F942921E32E2F0060F9F0 /* GXAFHTTPSessionManager.m */,
+				337F942021E32E2F0060F9F0 /* GXAFNetworking.h */,
+				337F942621E32E2F0060F9F0 /* GXAFNetworkReachabilityManager.h */,
 				337F941921E32E2F0060F9F0 /* GXAFNetworkReachabilityManager.m */,
 				337F941A21E32E2F0060F9F0 /* GXAFSecurityPolicy.h */,
-				337F941B21E32E2F0060F9F0 /* GXAFURLSessionManager.m */,
-				337F941C21E32E2F0060F9F0 /* GXAFURLResponseSerialization.m */,
-				337F941D21E32E2F0060F9F0 /* GXAFHTTPRequestOperation.h */,
-				337F941E21E32E2F0060F9F0 /* GXAFURLConnectionOperation.m */,
-				337F941F21E32E2F0060F9F0 /* GXAFHTTPSessionManager.h */,
-				337F942021E32E2F0060F9F0 /* GXAFNetworking.h */,
-				337F942121E32E2F0060F9F0 /* GXAFHTTPRequestOperationManager.h */,
-				337F942221E32E2F0060F9F0 /* GXAFURLRequestSerialization.m */,
-				337F942321E32E2F0060F9F0 /* GXAFURLSessionManager.h */,
-				337F942421E32E2F0060F9F0 /* GXAFURLResponseSerialization.h */,
 				337F942521E32E2F0060F9F0 /* GXAFSecurityPolicy.m */,
-				337F942621E32E2F0060F9F0 /* GXAFNetworkReachabilityManager.h */,
-				337F942721E32E2F0060F9F0 /* GXAFHTTPRequestOperation.m */,
 				337F942821E32E2F0060F9F0 /* GXAFURLConnectionOperation.h */,
-				337F942921E32E2F0060F9F0 /* GXAFHTTPSessionManager.m */,
+				337F941E21E32E2F0060F9F0 /* GXAFURLConnectionOperation.m */,
 				337F942A21E32E2F0060F9F0 /* GXAFURLRequestSerialization.h */,
-				337F942B21E32E2F0060F9F0 /* GXAFHTTPRequestOperationManager.m */,
+				337F942221E32E2F0060F9F0 /* GXAFURLRequestSerialization.m */,
+				337F942421E32E2F0060F9F0 /* GXAFURLResponseSerialization.h */,
+				337F941C21E32E2F0060F9F0 /* GXAFURLResponseSerialization.m */,
+				337F942321E32E2F0060F9F0 /* GXAFURLSessionManager.h */,
+				337F941B21E32E2F0060F9F0 /* GXAFURLSessionManager.m */,
 			);
 			name = AFNetworking;
 			path = ../../../WorkSpace/GXBKYCSDK/GXBKYCSDK/Vendor/AFNetworking;
@@ -213,8 +203,10 @@
 		33F1841221DCB2B8007544ED /* KYCDemo */ = {
 			isa = PBXGroup;
 			children = (
+				33B8E5C421DE37C700B3936D /* yw_1222_0769.jpg */,
+				33B8E5C021DE34CA00B3936D /* FaceLivenessSDK.bundle */,
+				33B8E5C121DE34CB00B3936D /* GXBKYCSDK.framework */,
 				337F941821E32E2F0060F9F0 /* AFNetworking */,
-				3331513021DCBF78003FFBFC /* GXBKYCSDK_output */,
 				33F1841321DCB2B8007544ED /* AppDelegate.h */,
 				33F1841421DCB2B8007544ED /* AppDelegate.m */,
 				3331516A21DCDF75003FFBFC /* KYCViewController.h */,
@@ -287,11 +279,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33B8E5C221DE34CB00B3936D /* FaceLivenessSDK.bundle in Resources */,
+				33B8E5C521DE37C700B3936D /* yw_1222_0769.jpg in Resources */,
 				33F1842021DCB2B9007544ED /* LaunchScreen.storyboard in Resources */,
 				33F1841D21DCB2B9007544ED /* Assets.xcassets in Resources */,
-				33B8E5C521DE37C700B3936D /* yw_1222_0769.jpg in Resources */,
 				33F1841B21DCB2B8007544ED /* Main.storyboard in Resources */,
-				33B8E5C221DE34CB00B3936D /* FaceLivenessSDK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,7 +458,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/HeHe/GXBKYCSDK_output",
 				);
-				INFOPLIST_FILE = HeHe/Info.plist;
+				INFOPLIST_FILE = KYCDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -488,7 +480,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/HeHe/GXBKYCSDK_output",
 				);
-				INFOPLIST_FILE = HeHe/Info.plist;
+				INFOPLIST_FILE = KYCDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
